@@ -1,0 +1,175 @@
+  .footer {
+  background-color: $color;
+  color: white;
+     padding:  30px 0;
+      &-top {
+   
+ 
+    border-bottom: #919eb1 2px solid;
+    margin-bottom: 70px;
+  }
+      ul {
+    list-style-type: none;
+    padding: 0;
+    a {
+      color: white;
+      width: 100%;
+      display: block;
+      padding: 10px;
+
+      &:hover {
+        color: $yellow-color;
+      }
+    }
+  }
+}
+.relative {
+  position: relative;
+}
+
+  .input-arrow {
+    position: absolute;
+    color: black;
+    font-size: 22px;
+    top: 50%;
+    font-size: 15px;
+    transform: translateY(-7px) scaleX(2);
+    right: 20px;
+  }
+
+
+  .hide-menu {
+    width: 100%;
+    li {
+      width: 100%;
+    }
+     background-color: #909090;
+    padding: 1px;
+    opacity: 0;
+    display: none;
+    z-index: 0;
+    transition: 0.3s;
+    &:hover {
+      opacity: 1;
+     
+      display: block;
+    }
+  }
+.footer-nav-item:hover{
+ background-color: #909090;
+}
+
+.hide-menu{
+  position: absolute;
+   left:150px;
+  bottom: 18px;
+  text-align: center;
+  width: calc(100% - 155px);
+}
+  .main-nav-button:hover + .hide-menu {
+    opacity: 1;
+    z-index: 5;
+    display: block;
+  }
+
+.main-nav-button{
+  line-height: 30px;
+}
+
+
+
+
+@media (min-width:600px){
+  
+    .hide-menu {
+    width: 100%;
+    li {
+      width: 100%;
+    }
+     background-color: inherit;
+    padding: 1px;
+    display: block;
+    z-index: 0;
+    &:hover {
+    }
+  }
+.footer-nav-item:hover{
+ background-color: inherit;
+}
+
+.hide-menu{
+  position: static;
+
+  text-align: left;
+  width: auto;
+}
+
+  .footer {
+  &-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: #919eb1 2px solid;
+    margin-bottom: 70px;
+  }
+    .logo{
+      margin-bottom: 50px;
+    }
+  .input {
+    width: 475px;
+    padding: 30px 50px 30px 30px;
+  }
+
+  &-title {
+    font-size: 40px;
+    font-weight: 600;
+    width: 34.33%;
+  }
+
+  .copyright {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.48;
+    letter-spacing: 0.14px;
+  }
+
+  &-part-left {
+    width: 1/6*100%;
+  }
+
+  &-part-right {
+    width: 4/6*100%
+  }
+
+  &-nav {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &-bottom {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+
+
+  .main-nav-button {
+    text-transform: uppercase;
+    color: #919eb1;
+    font-size: 13px;
+    cursor: pointer;
+    line-height: 60px;
+  }
+
+}
+
+.footer-nav-item {
+  width: 100%;
+
+  li {
+    font-size: 13px;
+  }
+}
+
+}

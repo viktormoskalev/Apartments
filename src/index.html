@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="fonts/icomoon.css">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+ <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apartments</title>
+</head>
+
+<body>
+ <div class="wrapper">
+  <div class="container">
+    <header class="header nav-close">
+      <div class="header-left">
+        <div class="logo">Luxestate</div>
+        <div class="navbar-toggle">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </div>
+      <div class="header-middle">
+        <nav>
+          <ul class="list navbar">
+            <li><a href="#about">About</a></li>
+            <li><a href="#apartments">Apartments</a></li>
+            <li><a href="#howitwork">How it Work</a></li>
+            <li><a href="#agents">Agents</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header-right">
+        <a href="#agents">Join Us</a>
+        <a class="button button-small ml-22-m started" href="#agents">Getting Started</a>
+      </div>
+    </header>
+
+    <section class="section section-hero">
+      <div class="section-foreground">
+        <div class="hero-top">
+          <h1 class="hero-title">Find your new <br> modern apartment</h1>
+          <form action="#">
+            <span class="icon-search"></span><input class="input " type="text" placeholder="search locations">
+            <button class="button right-radius">Search</button>
+          </form>
+        </div>
+        <div class="hero-bottom">
+          <a class="scroll" href="#about"> Scroll Down</a>
+          <div class="hero-right-buttons">
+            <a href="tel:000123456" class="button"> <span class="icon-hero icon-phone"></span>(000)123-4567</a>
+            <a target="_blank" href="https://goo.gl/maps/wkdywx8vNM7mfyZ67" class="button"><span class=" icon-hero icon-location"></span>Melbuourne,Australia</a>
+          </div>
+        </div>
+      </div>
+      <div class="section-background">
+        <figure class="hero-background"><img src="images/something.jpg" alt=""></figure>
+      </div>
+    </section>
+
+
+    <section id="about" class="section ourcompany">
+
+      <div class="grid sb">
+        <div class="grid-item width-6-12-xl">
+          <h2 class="section-title mb70-xl">
+            Our’s Company <br>
+            Statistics
+          </h2>
+          <p class="section-description">
+            In this space market-facing, yet UI work flows , or bake it in. Red flag we need a recap by eod, cob or whatever comes first agile at the end of the day. Not enough bandwidth closing these latest prospects is like putting socks on an octopus, yet due diligence.
+          </p>
+          <p class="section-description">
+            We need to get all stakeholders up to speed and in the right place hard stop, or technologically savvy or pre launch. Pro-sumer software commitment to the cause offline this discussion and wiggle room blue sky. Beef up teams were able to drive adoption and awareness. Screw the pooch killing it.
+          </p>
+
+        </div>
+        <div class="grid-item width-5-12-xl">
+          <div class="grid flex-end-xl space-around space-30-m">
+            @@include('./html-templates/card-count.html',{
+            "number":"748",
+            "description":"Appartments ",
+            })
+            @@include('./html-templates/card-count.html',{
+            "number":"3854",
+            "description":"Clients ",
+            })
+            @@include('./html-templates/card-count.html',{
+            "number":"24",
+            "description":"Employees ",
+            })
+            @@include('./html-templates/card-count.html',{
+            "number":"14",
+            "description":"Awards ",
+            })
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </div>
+  <section id="apartments" class=" bg-grey section section-appartments">
+    <div class="container">
+      <h2 class="section-title mb70">
+        More Then 500+ <br>
+        Appartments For Rent
+      </h2>
+      <div class="swiper-container swiper1">
+       <div class="swiper-wrapper grid-m space-30-m ">
+        @@include('./html-templates/card.html',{
+        "img":"something.jpg",
+        "description":"Random Street, Apt B453, New York ",
+        })
+
+        @@include('./html-templates/card.html',{
+        "img":"something.jpg",
+        "description":"Random Street, Apt B453, New York ",
+        })
+
+        @@include('./html-templates/card.html',{
+        "img":"something.jpg",
+        "description":"Random Street, Apt B453, New York ",
+        })
+
+        @@include('./html-templates/card.html',{
+        "img":"something.jpg",
+        "description":"Random Street, Apt B453, New York ",
+        })
+
+        @@include('./html-templates/card.html',{
+        "img":"something.jpg",
+        "description":"Random Street, Apt B453, New York ",
+        })
+
+        @@include('./html-templates/card.html',{
+        "img":"something.jpg",
+        "description":"Random Street, Apt B453, New York ",
+        })
+      </div>
+</div>
+      <div class="form-container">
+        <form class="fz0 form" action="#">
+          <input class="input" type="text" placeholder="search locations">
+          <button class="button right-radius">Search</button>
+        </form>
+        <button class="button button-white ml-40-m">View All Appartments</button>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section id="howitwork" class="section section-how">
+    <div class="container">
+      <h2 class="section-title">How it works</h2>
+      <p class="section-description width-1-3-xl">
+        In this space market-facing, yet UI work flows , or bake it in. Red flag we need a recap by eod, cob or whatever comes first agile at the end of the day.
+      </p>
+
+      <div class="swiper-container swiper2">
+       <div class="swiper-wrapper grid-m space-30-m ">
+        @@include('./html-templates/card-navigator.html',{
+        "number":"01",
+        "to-do-head":"01 Find Your Location",
+        "description":"In this space market-facing, yet UI work flows , or bake it in. Red flag we neef the day. ",
+        "underline":" Find Appartment",
+        })
+
+        @@include('./html-templates/card-navigator.html',{
+        "number":"02",
+        "to-do-head":"01 Find Your Location",
+        "description":"In this space market-facing, yet UI work flows , or bake it in. Red flag we neef the day. ",
+        "underline":" Find Appartment",
+        })
+
+        @@include('./html-templates/card-navigator.html',{
+        "number":"03",
+        "to-do-head":"01 Find Your Location",
+        "description":"In this space market-facing, yet UI work flows , or bake it in. Red flag we neef the day. ",
+        "underline":" Find Appartment",
+        })
+</div>
+
+      </div>
+
+      <h2 class="section-title mt-80">Services</h2>
+      <p class="section-description width-1-3-xl">In this space market-facing, yet UI work flows , or bake it in. Red flag we need a first agile at the end of the day. </p>
+      <div class="grid sb">
+        <div class="grid-item width-6-12-xl">
+          <figure class="section-image"><img src="images/something.jpg" alt="img"></figure>
+        </div>
+        <div class="grid-item width-5-12-xl">
+          <h3>Renting</h3>
+          <p class="section-description">In this space market-facing, yet UI work flows , or bake it in. Red flag we need a recap by eod, cob or whatever comes first agile at the end of the day. Not enough bandwidth closing these latest prospects is like putting socks on an octopus, yet due diligence</p>
+          <h3>Renting</h3>
+          <p class="section-description">In this space market-facing, yet UI work flows , or bake it in. Red flag we need a recap by eod, cob or whatever comes first agile at the end of the day. Not enough bandwidth closing these latest prospects is like putting socks on an octopus, yet due diligence</p>
+          <h3>Renting</h3>
+          <p class="section-description">In this space market-facing, yet UI work flows , or bake it in. Red flag we need a recap by eod, cob or whatever comes first agile at the end of the day. Not enough bandwidth closing these latest prospects is like putting socks on an octopus, yet due diligence</p>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="agents" class="section-agent section bg-grey">
+
+    <div class="container">
+      <h2 class="section-title">
+        Meet Our Agents
+      </h2>
+      <p class="section-description width-1-3-xl">
+        In this space market-facing, yet UI work flows , or bake it in. Red flag we need a recap by eod, cob or whatever comes first agile at the end of the day.
+      </p>
+
+      
+        <div class="swiper-container swiper3">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            
+            <div class="swiper-slide"> @@include('./html-templates/card-2.html',{
+              "img":"1.jpg",
+              "description":"Agent ",
+              })</div>
+            <div class="swiper-slide"> @@include('./html-templates/card-2.html',{
+              "img":"1.jpg",
+              "description":"Agent ",
+              })</div>
+            <div class="swiper-slide"> @@include('./html-templates/card-2.html',{
+              "img":"1.jpg",
+              "description":"Agent ",
+              })</div>
+      
+          </div>
+        </div>
+      </div>
+   
+  </section>
+
+  <section class="section section-supper">
+    <div class="container">
+
+      @@include('./html-templates/add-template.html',{
+      "position":"middle",
+      })
+
+      @@include('./html-templates/add-template.html',{
+      "position":"right",
+      "order":"order2",
+      "addclass": "text-aline-right-m",
+      })
+
+      <div class="grid space-30-m sb mt-80">
+        <div class="grid-item width-6-12-xl @@order">
+          <figure><img src="images/something.jpg" alt="" class="section-supper-image"></figure>
+
+        </div>
+
+        <div class="grid-item supper-text width-5-12-xl ">
+
+          <h3>Super Awesome Add</h3>
+          <p class="section-description">In this space market-facing, yet UI work flows , or bake it in. Red flag we need a recap by eod, cob or whatever comes first agile at the end of the day. Not enough bandwidth closing these latest prospects is like putting socks on an octopus, yet due diligence</p>
+          <button class="button position-@@position">Show More Me</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+  @@include('./html-templates/footer.html',{})
+
+</div>
+
+
+  <script src="js/main.js"></script>
+  <script src="js/swiper.min.js"></script>
+  <script src="js/swiper.js"></script>
+</body>
+
+</html>

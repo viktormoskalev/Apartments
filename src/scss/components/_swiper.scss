@@ -1,0 +1,23 @@
+.swiper3 {
+   width: calc(100% + 8px);
+
+margin-left: -4px;
+}
+
+
+.swiper-shadow-wrapper{
+  padding: 15px;
+
+}
+
+
+@media(max-width:600px){
+  .swiper-shadow-wrapper-m{
+  padding: 15px;
+    margin: 0 -15px;
+}
+
+  .swiper-shadow-wrapper{
+  margin: 0 -15px;
+}
+}
